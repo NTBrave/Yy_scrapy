@@ -68,7 +68,7 @@ class YyspiderSpider(scrapy.Spider):
         channel_moduleId = response.meta['channel_data']['channel_moduleId']
         channel_pageSize = response.meta['channel_data']['channel_pageSize']
         channel = response.meta['channel']  # 将传入的meta的dict中的channel值赋给channel
-        for i in range(1, page_num + 1):  # 根据page_num数量构造"下一页"并继续抓取
+        for i in range(1, page_num + 1):  # 根据page_num数量构造"下一页"并继续抓取，这个构造的网站要自己找的
             url = 'http://www.yy.com/more/page.action?biz={biz}&subBiz={subBiz}&page={page}&moduleId={moduleId}&pageSize={pageSize}'.format(
                 page=i, biz=channel_biz, subBiz=channel_subBiz, moduleId=channel_moduleId, pageSize=channel_pageSize)
             # 获取下一页的json数据
@@ -92,11 +92,13 @@ class YyspiderSpider(scrapy.Spider):
 
     def room_parse(self, response):
         items = response.meta['items']
-        # items['fan_num'] = response.xpath('//span[@class="w-liveplayer-head__follower-num"]/text()').extract()
+        #下面是获取关注的人数，暂时只能去script里面拿，还要正则处理一下，
         items['fan_num'] = response.xpath('/html/body/script[3]').extract()
         s = str(items['fan_num'])
         p = re.compile(r'(?:numOfFun: ")\d*')
         sss = re.findall(r'\d+', "  ".join(re.findall(p, s)))
+        if(sss==None):
+            sss[0] = 0
         items['fan_num'] = sss[0]
         items['crawl_time'] = time.strftime('%Y-%m-%d %X', time.localtime())  # 记录爬取时间
         yield items  # 输出items

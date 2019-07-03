@@ -1,5 +1,4 @@
 @echo off 
-F:
-cd  F:\pyTest\Yy
+cd  F:\pyTest\yy
 scrapy crawl yyspider
 pause

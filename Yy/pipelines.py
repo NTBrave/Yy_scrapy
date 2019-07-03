@@ -11,8 +11,8 @@ class YyPipeline(object):
     def __init__(self):
         self.file = codecs.open('Yyanchor.csv', 'wb+', encoding='utf-8')  # 创建以utf-8编码的csv文件
         client = pymongo.MongoClient('localhost', 27017)  # 创建mongodb连接
-        db = client['Yy99']  # 创建mongodb数据库huya
-        self.collection = db['Yyanchor']  # 创建数据库huya中collection
+        db = client['yy']  # 创建mongodb数据库huya
+        self.collection = db['yyanchor']  # 创建数据库huya中collection
 
     def process_item(self, item, spider):
         item = dict(item)  # 将抓到的item转为dict格式
