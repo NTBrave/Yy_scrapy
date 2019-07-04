@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9f470ef-ce8a-4b9c-a83d-31511551645d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yy/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Yy/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Yy/spiders/Yyspider.py" beforeDir="false" afterPath="$PROJECT_DIR$/Yy/spiders/Yyspider.py" afterDir="false" />
-    </list>
+    <list default="true" id="c9f470ef-ce8a-4b9c-a83d-31511551645d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,10 +9,43 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Yy$testre.coverage" NAME="testre Coverage Results" MODIFIED="1562069399581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Yy/spiders" />
+    <SUITE FILE_PATH="coverage/Yy$sdfas.coverage" NAME="sdfas Coverage Results" MODIFIED="1562229909551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Yy/spiders" />
+    <SUITE FILE_PATH="coverage/Yy$testre.coverage" NAME="testre Coverage Results" MODIFIED="1562229811584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Yy/spiders" />
+    <SUITE FILE_PATH="coverage/Yy$re.coverage" NAME="re Coverage Results" MODIFIED="1562229847317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Yy/spiders" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Yy/spiders/Yyspider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="99" column="19" lean-forward="true" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
+              <folding>
+                <element signature="e#24#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Yy/pipelines.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Yy/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,17 +98,17 @@
         <subPane>
           <expand>
             <path>
-              <item name="yy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yy" type="462c0819:PsiDirectoryNode" />
+              <item name="Yy" type="b2602c69:ProjectViewProjectNode" />
               <item name="Yy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="yy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yy" type="462c0819:PsiDirectoryNode" />
+              <item name="Yy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Yy" type="462c0819:PsiDirectoryNode" />
+              <item name="Yy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Yy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Yy" type="462c0819:PsiDirectoryNode" />
               <item name="Yy" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -170,7 +199,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1930295" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1735925" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -237,8 +266,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Yy/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        <state relative-caret-position="350">
+          <caret line="98" lean-forward="true" selection-start-line="98" selection-end-line="98" />
         </state>
       </provider>
     </entry>
@@ -253,11 +282,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Yy/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-          <folding>
-            <element signature="e#193#212#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="325">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -273,8 +299,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Yy/spiders/Yyspider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-925">
-          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        <state relative-caret-position="354">
+          <caret line="99" column="19" lean-forward="true" selection-start-line="99" selection-start-column="19" selection-end-line="99" selection-end-column="19" />
           <folding>
             <element signature="e#24#50#0" expanded="true" />
           </folding>
