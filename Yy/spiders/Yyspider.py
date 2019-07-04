@@ -4,7 +4,7 @@ from scrapy.http import Request
 from Yy.items import YyItem
 
 class YyspiderSpider(scrapy.Spider):
-    name = 'yyspider'
+    name = 'yy'
     allowed_domains = ['www.yy.com']#设置爬虫允许抓取的
     start_urls = ['http://www.yy.com/catalog']#设置第一个爬取的url
     allow_pagenum = 5;   #设置爬取频道的数量
@@ -15,7 +15,6 @@ class YyspiderSpider(scrapy.Spider):
         parse_content = response.xpath('//div[@class="w-video-module-cataloglist"]//li')  # 抓取当前频道
         for i in parse_content:
             channel_title = i.xpath('a[@class="box"]/span[@class="t"]/text()').extract_first()  # 抓取频道名称
-            print(channel_title)
             channel_url = i.xpath('a[@class="box"]/@href').extract_first()  # 抓取当前频道url
             #构造ajax请求地址的信息，原网址有可能会改，具体情况请自行维护
             if(channel_url == '/dancing'):
